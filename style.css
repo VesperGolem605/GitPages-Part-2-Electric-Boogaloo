@@ -64,25 +64,25 @@ a.navigation {/*Set the text color of the address tags in the navigation class*/
 }
 
 #education{
-  top:290px;
+  top:390px;
   left:151px;
   z-index:4;
 }
 
 #skill-set{
-  top:420px;
+  top:520px;
   left:151px;
   z-index:3;
 }
 
 #extracurricular{
-  top:650px;
+  top:750px;
   left:151px;
   z-index:2;
 }
 
 #experience{
-  top:800px;
+  top:900px;
   left:151px;
   z-index:1;
 }
