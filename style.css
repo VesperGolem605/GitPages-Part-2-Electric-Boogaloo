@@ -1,15 +1,14 @@
 #picture {
-   position: fixed;
+   position: relative;
    width=40px;
    height=40px;
-   right: 0;
-   bottom:10px;
-   margin: 0;
+   left: calc(100% - 100px);;
+   top=-0;
    z-index:2;
 }
 
 #title {
-  width:calc(100% - 36px);
+  width:calc(100% - 56px);
   position: fixed;        
   padding: 10px;
   text-align: center;
