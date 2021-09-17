@@ -1,8 +1,5 @@
-<style>
-.green_on_black_borderless {
-  background-color: #1C2833;
-  color: #58D68D;
-  margin: 0px;
-  padding: 10px;
+.picture{
+   float:right;
+   width=200;
+   height=200
 }
-</style>
