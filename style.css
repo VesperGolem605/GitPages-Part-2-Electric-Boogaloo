@@ -2,12 +2,14 @@
    float:right;
    width=70px;
    height=70px;
-   top=15;
+   top=0;
    position: fixed;
 }
 
 .title {
   height=100px;
+  width=100%;
+  top=0;
   background-color: #1C2833;
   color: #58D68D;
   margin: 0px;
