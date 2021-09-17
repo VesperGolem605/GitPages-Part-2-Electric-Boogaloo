@@ -1,6 +1,15 @@
-.picture{
+.picture {
    float:right;
    width=100px;
    height=100px;
 }
 
+.title {
+  height=100px;
+  background-color: #1C2833;
+  color: #58D68D;
+  margin: 0px;
+  padding: 10px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 50px;
+}
