@@ -1,9 +1,10 @@
 .picture {
    position: fixed;
-   width=75px;
-   height=75px;
+   width=40px;
+   height=40px;
    right: 0;
    top=0;
+   margin: 0;
 }
 
 .title {
@@ -13,20 +14,33 @@
   text-align: center;
   background-color: #1C2833;
   color: #58D68D;
-  top:-23px;
+  top:0px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 50px;
   border: 3px solid black;
+  margin: 0;
 }
 
-nav {
+nav.navigation {
+   list-style-type: none;
    position: fixed;
-   width:105px;
+   width:140px;
    height:100%;
-   top:105px;
+   top:93px;
    background-color: #1C2833;
    color: #FFA500;
    border: 3px solid black;
+   margin: 0;
+}
+
+a.navigation {
+  color: #58D68D;
+  padding: 2px 8px;
+  text-decoration: none;
+}
+
+.navigation a:hover{
+  color: white;
 }
 
 .div-header{
