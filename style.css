@@ -1,7 +1,9 @@
 .picture {
    float:right;
-   width=100px;
-   height=100px;
+   width=75px;
+   height=75px;
+   top=15;
+   position:fixed;
 }
 
 .title {
