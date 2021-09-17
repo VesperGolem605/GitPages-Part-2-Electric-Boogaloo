@@ -2,14 +2,14 @@
    position: fixed;
    width=40px;
    height=40px;
-   right: 0;
-   top=0;
+   left: 15;
    margin: 0;
    z-index:2;
+   padding-top:200px;
 }
 
 .title {
-  width: 100%;
+  width:calc(100% - 36px);
   position: fixed;        
   padding: 10px;
   text-align: center;
@@ -54,10 +54,24 @@ a.navigation {
    border: 3px solid black;
    padding: 10px;
    left:0px;
+   position:relative;
+   top:86px;
+   left:144px;
+   width:calc(100% - 164px);
 }
 
-.div-header {
-  position:relative;
-  top:86px;
-  left:144px;
+.misc-list {
+  background-color: #1C2833;
+  color: #58D68D;
+  margin: 0px;
+  padding: 10px 10px;
+  width:50%;
+}
+
+.skill-list {
+  background-color: #1C2833;
+  color: #58D68D;
+  margin: 0px;
+  padding: 10px 10px;
+  width:50%;
 }
