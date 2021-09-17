@@ -1,14 +1,14 @@
-.picture {
+#picture {
    position: fixed;
    width=40px;
    height=40px;
-   left: 15;
+   right: 0;
+   bottom:10px;
    margin: 0;
    z-index:2;
-   padding-top:200px;
 }
 
-.title {
+#title {
   width:calc(100% - 36px);
   position: fixed;        
   padding: 10px;
@@ -23,7 +23,7 @@
   z-index:1;
 }
 
-nav.navigation {
+#navigation {
    list-style-type: none;
    position: fixed;
    width:140px;
@@ -50,9 +50,7 @@ a.navigation {
    font-family: "Times New Roman", Times, serif;
    background-color: #1C2833;
    color: #58D68D;
-   margin: 0px;
    border: 3px solid black;
-   padding: 10px;
    left:0px;
    position:relative;
    top:86px;
@@ -60,18 +58,18 @@ a.navigation {
    width:calc(100% - 164px);
 }
 
-.misc-list {
+#programming-languages {
   background-color: #1C2833;
   color: #58D68D;
-  margin: 0px;
-  padding: 10px 10px;
-  width:50%;
+  margin: 1px 15px;
+  width:calc((100% - 164px)/2);
+  float:left;
 }
 
-.skill-list {
+#computer-skills {
   background-color: #1C2833;
   color: #58D68D;
-  margin: 0px;
-  padding: 10px 10px;
-  width:50%;
+  width:calc((100% - 164px)/2);
+  padding:1px 15px;
+  margin-left:calc((100% - 164px)/2);
 }
