@@ -16,3 +16,23 @@
   font-size: 50px;
   position: fixed;
 }
+
+.navigation {
+   height:100%;
+   width= 75px;
+   position= fixed;
+   top: 0;
+   left: 0;
+   background-color: #1C2833;
+   color: #58D68D;
+   margin: 0px;
+   padding: 10px;
+}
+
+.div-header{
+   font-family: "Times New Roman", Times, serif;
+   background-color: #A9A9A9;
+   color: #58D68D;
+   margin: 0px;
+   padding: 10px;
+}
