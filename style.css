@@ -1,10 +1,6 @@
 #picture {
-   position: relative;
    width=40px;
    height=40px;
-   left: calc(100% - 100px);;
-   top=-0;
-   z-index:2;
 }
 
 #title {
