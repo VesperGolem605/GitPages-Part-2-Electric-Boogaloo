@@ -1,10 +1,11 @@
-#picture {
+#picture {/*Set some padding and size parameters for a picture*/
    width=40px;
    height=40px;
    padding=10px;
+   position:relative;
 }
 
-#title {
+#title {/*Set the size and text of the title and make it fixed*/
   width:calc(100% - 56px);
   position: fixed;        
   padding: 10px;
@@ -19,7 +20,7 @@
   z-index:1;
 }
 
-#navigation {
+#navigation {/*Set the size and location of the navigation bar and make it fixed*/
    list-style-type: none;
    position: fixed;
    width:140px;
@@ -32,29 +33,31 @@
    z-index:1;
 }
 
-a.navigation {
+a.navigation {/*Set the text color of the address tags in the navigation class*/
   color: #58D68D;
   padding: 2px 8px;
   text-decoration: none;
 }
 
-.navigation a:hover{
+.navigation a:hover{/*Make the tags change color when hovered over*/
   color: white;
 }
 
-.div-header{
+.div-header{/*Set the location of the div-header classes so they are beneath the banner, and beside the navigatio bar*/
    font-family: "Times New Roman", Times, serif;
    background-color: #1C2833;
    color: #58D68D;
    border: 3px solid black;
    left:0px;
    position:relative;
-   top:86px;
    left:144px;
+   top:86px;
    width:calc(100% - 164px);
 }
 
-#programming-languages {
+body{
+}
+#programming-languages {/*Set the size and location of the programming langauges part of skill set*/
   background-color: #1C2833;
   color: #58D68D;
   margin: 1px 15px;
@@ -62,7 +65,7 @@ a.navigation {
   float:left;
 }
 
-#computer-skills {
+#computer-skills {/*Set the size and location of the computer skills part of skill set*/
   background-color: #1C2833;
   color: #58D68D;
   width:calc((100% - 164px)/2);
