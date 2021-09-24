@@ -1,5 +1,6 @@
 let myFunction = function() {
   var r = prompt("Please enter hello or goodbye");
+  alert("ad");
   if (r === "hello") {
     for(var i = 0; i < document.getElementsByClassName("hello").length; i++){
       alert("asd");
