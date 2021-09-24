@@ -1,11 +1,11 @@
 let myFunction = function() {
   var r = prompt("Please enter hello or goodbye");
-  alert("ad");
+  console.log(“hello world”)
   if (r === "hello") {
+    console.log(“hello”)
     for(var i = 0; i < document.getElementsByClassName("hello").length; i++){
-      alert("asd");
       var matches = i.innerHTML.match(/\d+$/);
-      alert(i.innerHTML);
+      console.log(i.innerHTML);
       if (matches) {
         var number = parseInt(matches[0]);
         number *= 2;
