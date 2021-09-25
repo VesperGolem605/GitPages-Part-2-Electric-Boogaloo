@@ -1,9 +1,8 @@
 let myFunction = function() {
-  var r = prompt("Please enter hello or goodbye2");
-  alert(“hello world”)
+  var r = prompt("Please enter hello or goodbye3");
   if (r === "hello") {
-    alert(“hello”)
     for(var i = 0; i < document.getElementsByClassName("hello").length; i++){
+      var q = prompt("Plasdgoodbye3")
       var matches = i.innerHTML.match(/\d+$/);
       alert(i.innerHTML);
       if (matches) {
@@ -12,6 +11,7 @@ let myFunction = function() {
         i.innerHTML = "Hello Number " + number;
       }
     }
+    var x = prompt("Plasdgoodbye3");
   } else if(r === "goodbye") {
     
   } else {
