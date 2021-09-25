@@ -1,5 +1,5 @@
 let myFunction = function() {
-  var r = prompt("Please enter hello or goodbye3");
+  var r = prompt("Please enter hello or goodbye");
   if (r === "hello") {
     for(var i = 0; i < document.getElementsByClassName("hello").length; i++){
       document.getElementsByClassName("hello")[i].className += ' highlight';
