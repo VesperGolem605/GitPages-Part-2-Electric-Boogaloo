@@ -71,7 +71,7 @@ document.getElementsByClassName("form-check-input")[1].addEventListener('change'
   } else {
     console.log("Checkbox is not checked..");
   }
-  document.getElementById('1').class.add("danger");
+  document.getElementById('1').classList.add("danger");
   itemMaker(); 
 });
 
